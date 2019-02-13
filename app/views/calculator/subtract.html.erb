@@ -1,0 +1,11 @@
+<h1>Simple Calculator</h1>
+<%= form_tag "/subtract" do %>
+<%= text_field_tag :number1 %>
+<%= text_field_tag :number2 %>
+<%= submit_tag "-" %>
+<% end %>
+
+<h1>
+
+<h1>Subtract</h1><br>
+<%= @num1 %> - <%= @num2 %> = <%= @result %>
